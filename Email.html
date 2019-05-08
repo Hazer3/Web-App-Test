@@ -174,11 +174,11 @@
     
       if (data.success == true) {
           
-          $(page).find("#message").html("Your email was sent successfully!").show();
+          $(page).find("#message").html("Your email was sent successfully.").show();
           
       } else {
           
-          $(page).find("#message").html("Your email could not be sent - please try again later.").show();
+          $(page).find("#message").html("Your email could not be sent. Please try again later.").show();
           
       }
       
@@ -186,7 +186,7 @@
   },
   error: function(xhr, type){
     
-        $(page).find("#message").html("Your email could not be sent - please try again later.").show();     
+        $(page).find("#message").html("Your email could not be sent. Please try again later.").show();     
       
   }
 })
